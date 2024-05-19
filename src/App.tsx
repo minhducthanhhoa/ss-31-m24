@@ -7,6 +7,9 @@ import Bai3 from './components/Bai3/Bai3';
 import Bai4 from './components/Bai4/Bai4';
 import AppComponent from './components/Bai5/AppComponent';
 import Parent from './components/Bai6/Parent';
+import Count from './components/Bai10/Count';
+import Bai11 from './components/Bai11/Bai11';
+import Bai12 from './components/Bai12/Bai12';
 export default function App() {
   const [active,setActive] = useState<boolean>(true);
   const removeComponent = () => {
@@ -50,6 +53,9 @@ export default function App() {
        <Bai4></Bai4>
        <AppComponent></AppComponent>
        <Parent></Parent>
+       <Count></Count>
+       <Bai11></Bai11>
+       <Bai12></Bai12>
     </div>
   )
 }
